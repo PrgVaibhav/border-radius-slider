@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  background: #000;
+}
+
+.output {
+  /* height: 200px;
+  width: px; */
+  padding: 5em 5em;
+  background-color: #12ef33;
+}
+
+.input {
+  cursor: pointer;
+  width: 13rem;
+  /* width: 200px; */
+}
+
+.result {
+  font-size: 1.8rem;
+}
